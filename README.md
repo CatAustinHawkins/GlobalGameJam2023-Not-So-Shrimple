@@ -12,10 +12,13 @@ Created in Unity
 Credits: 
 
 Rasmus Ross: https://raz.uwu.ai/ 
+
 All 2D Assets + Animation
 
 Tom Budd: https://www.artstation.com/tombudd 
+
 All 3D Assets + Texturing, Game Title, Audio Editing
 
 Cat Austin-Hawkins:
+
 Programming
