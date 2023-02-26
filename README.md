@@ -7,7 +7,8 @@ Not So Shrimple
 
 Deep in the Illinois Caverns, an Amphipod is searching for their most prized possession - a delicious Fig! Help them leave their roots and reach the top!
 
-Created in Unity 
+Created in Unity 2021.3.12f1, using C#.
+
 
 Credits: 
 
@@ -15,9 +16,11 @@ Rasmus Ross: https://raz.uwu.ai/
 
 All 2D Assets + Animation
 
+
 Tom Budd: https://www.artstation.com/tombudd 
 
 All 3D Assets + Texturing, Game Title, Audio Editing
+
 
 Cat Austin-Hawkins:
 
