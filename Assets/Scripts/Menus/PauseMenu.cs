@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-
     public GameObject PauseMenuGO;
 
     public void Pause()
@@ -16,5 +13,4 @@ public class PauseMenu : MonoBehaviour
     {
         PauseMenuGO.SetActive(false);
     }
-
 }

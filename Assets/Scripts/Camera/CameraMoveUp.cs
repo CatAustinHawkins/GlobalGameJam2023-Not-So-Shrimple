@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class CameraMoveUp : MonoBehaviour
 {
     public GameObject MainCamera;
@@ -19,5 +16,4 @@ public class CameraMoveUp : MonoBehaviour
         CameraGoDown.SetActive(true);
         gameObject.SetActive(false);
     }
-
 }

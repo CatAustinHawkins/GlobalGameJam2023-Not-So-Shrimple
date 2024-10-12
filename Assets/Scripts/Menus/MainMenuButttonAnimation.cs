@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenuButttonAnimation : MonoBehaviour
 {
-
     public Animator Button1Anim;
     public Animator Button2Anim;
     public Animator Button3Anim;
@@ -57,5 +54,4 @@ public class MainMenuButttonAnimation : MonoBehaviour
         Button3Anim.Play("ButtonMove3");
         timerbegin = true;
     }
-
 }

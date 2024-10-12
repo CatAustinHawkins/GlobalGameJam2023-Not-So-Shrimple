@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class RestartScene : MonoBehaviour
 {
     private Scene currentScene;

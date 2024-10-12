@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-
     public int MoveSpeed;
 
     public Vector3 Point1;
@@ -37,7 +34,5 @@ public class MovingPlatform : MonoBehaviour
         {
             gameObject.transform.position = Vector3.MoveTowards(transform.position, Point2, MoveSpeed * Time.deltaTime);
         }
-
     }
-
 }

@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class Olm : MonoBehaviour
 {
     public GameObject Player;
@@ -51,6 +50,4 @@ public class Olm : MonoBehaviour
         OlmDeadGO.SetActive(true);
         gameObject.SetActive(false);
     }
-
-
 }

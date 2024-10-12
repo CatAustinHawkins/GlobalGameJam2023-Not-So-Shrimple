@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Terry : MonoBehaviour
@@ -11,5 +9,4 @@ public class Terry : MonoBehaviour
         Player.GetComponent<PlayerMovement>().TerryCollect();
         Destroy(gameObject);
     }
-
 }

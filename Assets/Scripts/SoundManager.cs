@@ -5,7 +5,6 @@ public class SoundManager : MonoBehaviour
 {
     public Slider VolumeSlider;
 
-    // Start is called before the first frame update
     void Start()
     {
         Load();

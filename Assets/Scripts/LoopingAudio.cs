@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class LoopingAudio : MonoBehaviour
 {
     void Start()

@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
 
 public class PlayerMovement : MonoBehaviour
@@ -30,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
     public TextMeshProUGUI TerryCountText;
     public int TerryCount;
    
-    // Start is called before the first frame update
     void Start()
     {
         PlayerAnim = gameObject.GetComponent<Animator>();
@@ -38,7 +36,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
         //Grounded?
         if (isGrounded == true)
         {
@@ -114,22 +111,6 @@ public class PlayerMovement : MonoBehaviour
             Health--;
         }
     }
-
-/*    public void HealthIncrease()
-    {
-        if (Health == 1)
-        {
-            Heart2.SetActive(true);
-            Heart2Gone.SetActive(false);
-            Health++;
-        }
-        if (Health == 2)
-        {
-            Heart3.SetActive(true);
-            Heart3Gone.SetActive(false);
-            Health++;
-        }
-    }*/
 
     public void TerryCollect()
     {
